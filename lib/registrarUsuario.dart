@@ -256,7 +256,7 @@ class _RegistrarUsuario extends State<RegistrarUsuario> {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 10),
             child: Image.asset(
-              'logo-twbs-blanco.png', // Reemplaza con la URL de tu imagen
+              'assets/logo-twbs-blanco.png', // Reemplaza con la URL de tu imagen
               fit: BoxFit.cover, // Ajusta la imagen al tamaño del Card
               width: 150,
             ),

@@ -98,9 +98,10 @@ class _Login extends State<Login> {
                         padding: const EdgeInsets.symmetric(
                             horizontal: 100, vertical: 10),
                         child: Image.asset(
-                          'logo-twbs-negro.png', // Reemplaza con la URL de tu imagen
+                          'assets/logo-twbs-negro.png', // Reemplaza con la URL de tu imagen
                           fit: BoxFit
                               .cover, // Ajusta la imagen al tamaño del Card
+                              width: 500,
                         ),
                       ),
                       Padding(
